@@ -59,4 +59,5 @@ Android Studio
 Git + GitHub
 
 💻 Penjelasan code penting
+
 1.📄 Penjelasan Kode DetailActivity.kt
