@@ -27,27 +27,35 @@ Selain itu, RecyclerView juga mendukung penggunaan dekorasi item (item decoratio
 -Sabila Zahrani (35)
 
 🔄 Penjelasan Alur Data
-1.Student.kt (Model) Berisi data class Student yang digunakan untuk menyimpan informasi setiap siswa, seperti nama, NIS, kelas, dan foto.
-Model ini menjadi acuan struktur data yang akan ditampilkan di aplikasi.
-2.StudentAdapter.kt (Adapter) Berfungsi sebagai penghubung antara data siswa dan tampilan di RecyclerView. 
-Adapter ini mengatur bagaimana setiap data siswa akan dimasukkan ke dalam layout item yang sudah dibuat.
-3.item_student.xml (Layout Item) Merupakan layout yang digunakan untuk menampilkan satu item siswa dalam daftar RecyclerView. 
-Layout ini biasanya berisi elemen gambar siswa, nama, NIS, dan kelas.
-4.MainActivity.kt Bertanggung jawab untuk menampilkan data siswa pada RecyclerView.
-Di sini, data dimasukkan ke dalam adapter dan diatur menggunakan LayoutManager agar tampil dalam bentuk list.
-5.DetailActivity.kt Menampilkan detail lengkap siswa yang dipilih dari daftar. 
-Data dikirimkan dari MainActivity melalui Intent.
+
+1.Student.kt (Model) Berisi data class Student yang digunakan untuk menyimpan informasi setiap siswa, seperti nama, NIS, kelas, dan foto. Model ini menjadi acuan struktur data yang akan ditampilkan di aplikasi.
+
+2.StudentAdapter.kt (Adapter) Berfungsi sebagai penghubung antara data siswa dan tampilan di RecyclerView. Adapter ini mengatur bagaimana setiap data siswa akan dimasukkan ke dalam layout item yang sudah dibuat.
+
+3.item_student.xml (Layout Item) Merupakan layout yang digunakan untuk menampilkan satu item siswa dalam daftar RecyclerView. Layout ini biasanya berisi elemen gambar siswa, nama, NIS, dan kelas.
+
+4.MainActivity.kt Bertanggung jawab untuk menampilkan data siswa pada RecyclerView. Di sini, data dimasukkan ke dalam adapter dan diatur menggunakan LayoutManager agar tampil dalam bentuk list.
+
+5.DetailActivity.kt Menampilkan detail lengkap siswa yang dipilih dari daftar. Data dikirimkan dari MainActivity melalui Intent.
 
 ⚙️ Fitur Aplikasi
+
 1.Menampilkan daftar siswa menggunakan RecyclerView dengan tata letak vertikal
+
 2.Setiap item siswa berisi foto, nama, NIS, dan kelas.
+
 3.Pengguna dapat melihat detail lengkap siswa melalui halaman DetailActivity.
+
 4.Tersedia tombol Edit untuk mengubah data siswa.
+
 5.Tersedia tombol Hapus untuk menghapus data siswa dari daftar.
 
 🔧 Teknologi
+
 Kotlin
+
 Android Studio
+
 Git + GitHub
 
 💻 Penjelasan code penting
