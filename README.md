@@ -21,7 +21,9 @@ Selain itu, RecyclerView juga mendukung penggunaan dekorasi item (item decoratio
 👥 Tim
 
 -M.Alfian Fauzi(21)
+
 -Meutya Candra Dewi(26)
+
 -Sabila Zahrani(35)
 
 🔄 Penjelasan Alur Data
