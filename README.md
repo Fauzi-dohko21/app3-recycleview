@@ -8,6 +8,7 @@ Dalam aplikasi ini, RecyclerView digunakan untuk menampilkan daftar siswa dalam 
 Komponen ini dipilih karena memiliki performa yang lebih baik dibandingkan ListView dalam menampilkan data jumlah banyak secara dinamis.
 
 📄 Penjelasan RecyclerView
+
 RecyclerView adalah salah satu komponen tampilan (view) yang disediakan oleh Android untuk 
 menampilkan kumpulan data dalam jumlah besar secara efisien. Komponen ini bekerja dengan 
 cara menampilkan hanya item yang terlihat di layar dan mendaur ulang (recycle) tampilan item yang sudah tidak terlihat agar dapat digunakan kembali untuk data berikutnya. 
