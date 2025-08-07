@@ -53,6 +53,5 @@ Kode ini memiliki fungsi untuk menampilkan dialog konfirmasi saat item siswa di-
 - Contoh jika user memilih melihat data siswa :
 ![WhatsApp Image 2025-08-07 at 18 23 06_a84deccd](https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c)
 
-💻 Penjelasan code penting
-
-1.📄 Penjelasan Kode DetailActivity.kt
+## Kesimpulan
+Melalui proyek ini, kami belajar bagaimana mengembangkan aplikasi Android sederhana yang mampu menampilkan data siswa secara dinamis menggunakan RecyclerView. Proyek ini juga memberikan pemahaman mengenai penerapan fitur CRUD, seperti menambah, mengedit, menghapus, dan melihat detail data, dengan memanfaatkan adapter dan intent antar activity. Seluruh proses pengembangan dilakukan menggunakan Android Studio, yang membantu kami memahami alur kerja dalam membangun aplikasi yang fungsional dan terstruktur. Dengan demikian, proyek ini menambah wawasan serta keterampilan kami dalam pengembangan aplikasi berbasis Android.
