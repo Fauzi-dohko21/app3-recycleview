@@ -37,9 +37,9 @@ Activity ini digunakan untuk menampilkan detail lengkap dari siswa yang dipilih.
 ## ⚙️ Fitur Aplikasi
 - Fitur Pertama yakni menampilkan 10 data siswa, yang memiliki code seperti ini :
 
-<img width="500" height="420" alt="image" src="https://github.com/user-attachments/assets/8afc615e-4e32-4821-92e9-1c43f61b44a7" />
+<img width="400" height="320" alt="image" src="https://github.com/user-attachments/assets/8afc615e-4e32-4821-92e9-1c43f61b44a7" />
 
-Kode ini berlokasikan di dalam fungsi onCreate() pada MainActivity, dan berfungsi untuk menampilkan daftar siswa menggunakan RecyclerView. Pertama, layout activity_main.xml dipasang, lalu RecyclerView dihubungkan menggunakan findViewById dan diatur tampil secara vertikal dengan LinearLayoutManager. Selanjutnya, data siswa dimasukkan secara manual ke dalam studentList menggunakan addAll(), berisi objek Student yang memiliki nama, NIS, dan kelas. Setelah data dimasukkan, adapter StudentAdapter dibuat dengan membawa context dan data tersebut, lalu disambungkan ke RecyclerView dengan recyclerView.adapter = studentAdapter.Setelah terjadi proses tersebut data siswa akan tampil secara otomatis di layar dalam bentuk list yang menghasilkan tampilan daftar siswa seperti ini
+Kode ini berada di dalam fungsi onCreate() MainActivity dan berfungsi menampilkan daftar siswa menggunakan RecyclerView. Layout dipasang, RecyclerView dihubungkan dan diatur dengan LinearLayoutManager vertikal. Data siswa dimasukkan secara manual ke dalam studentList, kemudian StudentAdapter dibuat dan disambungkan ke RecyclerView. Setelah itu, daftar siswa otomatis tampil di layar.i
 
 <img src="https://github.com/user-attachments/assets/c181ba1a-676b-4b79-b4dc-62e624f936f3" alt="WhatsApp Image" width="300"/>
 
@@ -62,14 +62,14 @@ Kode ini memiliki fungsi untuk menampilkan dialog konfirmasi saat item siswa di-
 Kode ini berfungsi untuk membuka halaman tambah data siswa saat tombol Tambah ditekan. Ketika tombol tersebut diklik, aplikasi membuat Intent yang mengarah ke AddEditActivity. Selanjutnya, aktivitas tersebut dijalankan dengan startActivityForResult() menggunakan kode permintaan REQUEST_ADD agar data baru yang dimasukkan bisa diterima dan ditampilkan kembali di halaman utama.
 
 - Contoh dari hasil code tambah :
-<img src="https://github.com/user-attachments/assets/b27818b8-83a3-4a34-9ea7-ed51f492b42d" alt="Gambar 1" width="300" />
-<img src="https://github.com/user-attachments/assets/ee2ac767-bd13-4f19-a745-7f8e613fb936" alt="Gambar 2" width="300" />
-<img src="https://github.com/user-attachments/assets/490ab6b4-6dd0-450d-a0b7-05985e36415e" alt="Gambar 3" width="300" />
+<img src="https://github.com/user-attachments/assets/b27818b8-83a3-4a34-9ea7-ed51f492b42d" alt="Gambar 1" width="200" />
+<img src="https://github.com/user-attachments/assets/ee2ac767-bd13-4f19-a745-7f8e613fb936" alt="Gambar 2" width="200" />
+<img src="https://github.com/user-attachments/assets/490ab6b4-6dd0-450d-a0b7-05985e36415e" alt="Gambar 3" width="200" />
 
 
 - Fitur Keempat yakni fitur edit yang memungkinkan untuk memperbarui data lama siswa dengan data yang baru, yang memiliki code seperti ini :
 
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/17ba6518-a99d-4773-87ab-f5f51b9ca6ec" />
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/17ba6518-a99d-4773-87ab-f5f51b9ca6ec" />
 
 Kode ini digunakan untuk mengarahkan pengguna ke halaman edit data siswa saat tombol Edit ditekan pada item RecyclerView. Data siswa seperti nama, NIS, kelas, dan posisi datanya dikirim ke AddEditActivity menggunakan Intent. Setelah itu, halaman edit dibuka dengan startActivityForResult() agar hasil perubahan bisa dikembalikan dan diperbarui di tampilan utama
 
