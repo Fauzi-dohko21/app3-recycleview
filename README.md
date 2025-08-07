@@ -19,6 +19,7 @@ RecyclerView memungkinkan pengembang untuk mengatur tata letak item menggunakan 
 Selain itu, RecyclerView juga mendukung penggunaan dekorasi item (item decoration) dan animasi transisi data, sehingga tampilan daftar menjadi lebih menarik.
 
 👥 Tim
+
 -M.Alfian Fauzi(21)
 -Meutya Candra Dewi(26)
 -Sabila Zahrani(35)
