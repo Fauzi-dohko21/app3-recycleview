@@ -74,7 +74,9 @@ Kode ini berfungsi untuk membuka halaman tambah data siswa saat tombol Tambah di
 Kode ini digunakan untuk mengarahkan pengguna ke halaman edit data siswa saat tombol Edit ditekan pada item RecyclerView. Data siswa seperti nama, NIS, kelas, dan posisi datanya dikirim ke AddEditActivity menggunakan Intent. Setelah itu, halaman edit dibuka dengan startActivityForResult() agar hasil perubahan bisa dikembalikan dan diperbarui di tampilan utama
 
 - Contoh dari hasil dari code edit :
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/9d4aea74-2433-4d87-8de3-72c54db34e44" />
+<img src="https://github.com/user-attachments/assets/176dfc7d-ef00-4a44-b844-6ca1ab997b33" alt="Gambar 4" width="200" />
+<img src="https://github.com/user-attachments/assets/14187f78-5391-4f4f-8b52-d0909c7c7992" alt="Gambar 5" width="200" />
+
 
 - Fitur Kelima yakni fitur delete :
 
@@ -83,7 +85,9 @@ Kode ini digunakan untuk mengarahkan pengguna ke halaman edit data siswa saat to
 Kode ini memunculkan AlertDialog saat tombol Hapus diklik. Jika dikonfirmasi, item dihapus dari studentList menggunakan removeAt(), lalu RecyclerView diperbarui dengan notifyItemRemoved() dan notifyItemRangeChanged(). Toast ditampilkan sebagai notifikasi. Jika dibatalkan, dialog ditutup tanpa aksi.
 
 - Contoh dari hasil code delete :
-
+<img src="https://github.com/user-attachments/assets/b27818b8-83a3-4a34-9ea7-ed51f492b42d" alt="Gambar 1" width="200" />
+<img src="https://github.com/user-attachments/assets/ee2ac767-bd13-4f19-a745-7f8e613fb936" alt="Gambar 2" width="200" />
+<img src="https://github.com/user-attachments/assets/490ab6b4-6dd0-450d-a0b7-05985e36415e" alt="Gambar 3" width="200" />
 
 
 ## Kesimpulan
