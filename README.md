@@ -48,22 +48,22 @@ Kode ini berlokasikan di dalam fungsi onCreate() pada MainActivity, dan berfungs
 <img width="500" height="300" alt="Screenshot 2025-08-07 181149" src="https://github.com/user-attachments/assets/831eabe9-a2e5-4a08-9530-76d95dd4c4a1" />
 
 Kode ini memiliki fungsi untuk menampilkan dialog konfirmasi saat item siswa di-klik di dalam RecyclerView. Saat pengguna menekan salah satu item, muncul dialog dengan pertanyaan "Lihat Detail?" dan pesan yang menyebutkan nama siswa tersebut. Jika tombol "Lihat" ditekan, maka aplikasi akan membuka DetailActivity sambil mengirimkan data siswa berupa nama, NIS, dan kelas melalui Intent. Data ini kemudian bisa ditampilkan lebih lanjut di halaman detail. Jika pengguna memilih "Batal", dialog akan ditutup tanpa melakukan apa-apa
-- Contoh dari hasil code jika data siswa ditekan maka akan muncul notifikasi seperti ini :
-
-<img src="https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13" alt="WhatsApp Image" width="300"/>
-
-- Contoh jika user memilih melihat data siswa :
+- Contoh dari hasil code jika data siswa ditekan maka akan muncul notifikasi seperti ini dan contoh jika user memilih melihat data siswa :
 
 <img src="https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c" alt="WhatsApp Image" width="300" />
+<img src="https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13" alt="WhatsApp Image" width="300"/>
 
 - Fitur Ketiga yakni fitur untuk menambahan data siswa, yang memiliki code sepeti ini :
-- 
+
 <img width="500" height="170" alt="image" src="https://github.com/user-attachments/assets/365ff635-dc13-4eba-9061-47a6f7a7bf87" />
 
 Kode ini berfungsi untuk membuka halaman tambah data siswa saat tombol Tambah ditekan. Ketika tombol tersebut diklik, aplikasi membuat Intent yang mengarah ke AddEditActivity. Selanjutnya, aktivitas tersebut dijalankan dengan startActivityForResult() menggunakan kode permintaan REQUEST_ADD agar data baru yang dimasukkan bisa diterima dan ditampilkan kembali di halaman utama.
 
+- Contoh dari hasil code tambah :
 
-Contoh dari hasil code tambah :
+<img src="https://github.com/user-attachments/assets/b27818b8-83a3-4a34-9ea7-ed51f492b42d" alt="Gambar 1" width="300" />
+<img src="https://github.com/user-attachments/assets/ee2ac767-bd13-4f19-a745-7f8e613fb936" alt="Gambar 2" width="300" />
+<img src="https://github.com/user-attachments/assets/490ab6b4-6dd0-450d-a0b7-05985e36415e" alt="Gambar 3" width="300" />
 
 - Fitur Keempat yakni fitur edit yang memungkinkan untuk memperbarui data lama siswa dengan data yang baru, yang memiliki code seperti ini :
 
