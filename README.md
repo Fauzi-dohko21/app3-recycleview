@@ -7,7 +7,7 @@ Pembuatan project ini bertujuan untuk menampilkan daftar siswa dengan menggunaka
 - Sabila Zahrani ( 35 )
  
 ## Penjelasan RecyclerView
-RecyclerView adalah sebuah komponen UI canggih yang diperkenalkan dalam Android Lollipop (API 21) sebagai pengganti metode ListView dan GridView, penggantian dilakukan karena Recycleview dapat menghasilkan performa yang jauh lebih baik dan fleksibilitas tinggi. RecyclerView digunakan untuk menampilkan kumpulan data yang besar secara efisien dengan cara mendaur ulang tampilan item yang tidak terlihat agar menghemat memori dan meningkatkan performa dan RecyclerView memungkinkan pengembang untuk mengatur tata letak item menggunakan LayoutManager seperti LinearLayoutManager, GridLayoutManager, atau StaggeredGridLayoutManager
+RecyclerView adalah sebuah komponen UI canggih yang diperkenalkan dalam Android Lollipop (API 21) sebagai pengganti metode ListView dan GridView, penggantian dilakukan karena Recycleview dapat menghasilkan performa yang jauh lebih baik dan fleksibilitas tinggi
 
 ## Penjelasan Alur Data
 1. Student.kt (Model)
@@ -74,6 +74,16 @@ Kode ini berfungsi untuk membuka halaman tambah data siswa saat tombol Tambah di
 Kode ini digunakan untuk mengarahkan pengguna ke halaman edit data siswa saat tombol Edit ditekan pada item RecyclerView. Data siswa seperti nama, NIS, kelas, dan posisi datanya dikirim ke AddEditActivity menggunakan Intent. Setelah itu, halaman edit dibuka dengan startActivityForResult() agar hasil perubahan bisa dikembalikan dan diperbarui di tampilan utama
 
 - Contoh dari hasil dari code edit :
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/9d4aea74-2433-4d87-8de3-72c54db34e44" />
+
+- Fitur Kelima yakni fitur delete :
+
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/a46474ce-305b-4236-a5c6-c25dc96d6b12" />
+
+Kode ini memunculkan AlertDialog saat tombol Hapus diklik. Jika dikonfirmasi, item dihapus dari studentList menggunakan removeAt(), lalu RecyclerView diperbarui dengan notifyItemRemoved() dan notifyItemRangeChanged(). Toast ditampilkan sebagai notifikasi. Jika dibatalkan, dialog ditutup tanpa aksi.
+
+- Contoh dari hasil code delete :
+
 
 
 ## Kesimpulan
