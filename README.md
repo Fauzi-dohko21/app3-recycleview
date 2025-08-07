@@ -51,8 +51,8 @@ Kode ini berada di dalam fungsi onCreate() MainActivity dan berfungsi menampilka
 Kode ini memiliki fungsi untuk menampilkan dialog konfirmasi saat item siswa di-klik di dalam RecyclerView. Saat pengguna menekan salah satu item, muncul dialog dengan pertanyaan "Lihat Detail?" dan pesan yang menyebutkan nama siswa tersebut. Jika tombol "Lihat" ditekan, maka aplikasi akan membuka DetailActivity sambil mengirimkan data siswa berupa nama, NIS, dan kelas melalui Intent. Data ini kemudian bisa ditampilkan lebih lanjut di halaman detail. Jika pengguna memilih "Batal", dialog akan ditutup tanpa melakukan apa-apa
 - Contoh dari hasil code jika data siswa ditekan maka akan muncul notifikasi seperti ini dan contoh jika user memilih melihat data siswa :
 
-<img src="https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c" alt="WhatsApp Image" width="300" />
-<img src="https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13" alt="WhatsApp Image" width="300"/>
+<img src="https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c" alt="WhatsApp Image" width="200" />
+<img src="https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13" alt="WhatsApp Image" width="200"/>
 
 
 - Fitur Ketiga yakni fitur untuk menambahan data siswa, yang memiliki code sepeti ini :
@@ -85,9 +85,8 @@ Kode ini digunakan untuk mengarahkan pengguna ke halaman edit data siswa saat to
 Kode ini memunculkan AlertDialog saat tombol Hapus diklik. Jika dikonfirmasi, item dihapus dari studentList menggunakan removeAt(), lalu RecyclerView diperbarui dengan notifyItemRemoved() dan notifyItemRangeChanged(). Toast ditampilkan sebagai notifikasi. Jika dibatalkan, dialog ditutup tanpa aksi.
 
 - Contoh dari hasil code delete :
-<img src="https://github.com/user-attachments/assets/b27818b8-83a3-4a34-9ea7-ed51f492b42d" alt="Gambar 1" width="200" />
-<img src="https://github.com/user-attachments/assets/ee2ac767-bd13-4f19-a745-7f8e613fb936" alt="Gambar 2" width="200" />
-<img src="https://github.com/user-attachments/assets/490ab6b4-6dd0-450d-a0b7-05985e36415e" alt="Gambar 3" width="200" />
+<img src="https://github.com/user-attachments/assets/9f2ba9d2-bec9-4854-810c-4eaab98e0642" alt="Gambar 6" width="200" />
+<img src="https://github.com/user-attachments/assets/13aa7f48-4841-4264-a5e1-6c4beecd70ea" alt="Gambar 7" width="200" />
 
 
 ## Kesimpulan
