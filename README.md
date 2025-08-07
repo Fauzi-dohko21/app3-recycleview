@@ -6,10 +6,10 @@ Pembuatan project ini bertujuan untuk menampilkan daftar siswa dengan menggunaka
 - Meutya Candra Dewi ( 26 )
 - Sabila Zahrani (35)
  
-## 📄 Penjelasan RecyclerView
+## Penjelasan RecyclerView
 RecyclerView adalah sebuah komponen UI canggih yang diperkenalkan dalam Android Lollipop (API 21) sebagai pengganti metode ListView dan GridView, penggantian dilakukan karena Recycleview dapat menghasilkan performa yang jauh lebih baik dan fleksibilitas tinggi. RecyclerView digunakan untuk menampilkan kumpulan data yang besar secara efisien dengan cara mendaur ulang tampilan item yang tidak terlihat agar menghemat memori dan meningkatkan performa dan RecyclerView memungkinkan pengembang untuk mengatur tata letak item menggunakan LayoutManager seperti LinearLayoutManager, GridLayoutManager, atau StaggeredGridLayoutManager
 
-## 🔄 Penjelasan Alur Data
+## Penjelasan Alur Data
 1. Student.kt (Model)
 
 Student adalah sebuah data class yang berisi dan menyimpan properti dari siswa, seperti nama, NIS, kelas, dan foto. Model yang digunakan ini merupakan acuan untuk membangun struktur data yang akan ditampilkan di RecycleView
