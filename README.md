@@ -41,8 +41,7 @@ Fitur Pertama yakni menampilkan 10 data siswa, yang memiliki code seperti ini :
 
 Kode ini berlokasikan di dalam fungsi onCreate() pada MainActivity, dan berfungsi untuk menampilkan daftar siswa menggunakan RecyclerView. Pertama, layout activity_main.xml dipasang, lalu RecyclerView dihubungkan menggunakan findViewById dan diatur tampil secara vertikal dengan LinearLayoutManager. Selanjutnya, data siswa dimasukkan secara manual ke dalam studentList menggunakan addAll(), berisi objek Student yang memiliki nama, NIS, dan kelas. Setelah data dimasukkan, adapter StudentAdapter dibuat dengan membawa context dan data tersebut, lalu disambungkan ke RecyclerView dengan recyclerView.adapter = studentAdapter.Setelah terjadi proses tersebut data siswa akan tampil secara otomatis di layar dalam bentuk list yang menghasilkan tampilan daftar siswa seperti ini
 
-![WhatsApp Image 2025-08-07 at 18 04 31_09ddcda6](https://github.com/user-attachments/assets/c181ba1a-676b-4b79-b4dc-62e624f936f3)
-
+<img src="https://github.com/user-attachments/assets/c181ba1a-676b-4b79-b4dc-62e624f936f3" alt="WhatsApp Image" width="400"/>
 
 Fitur Kedua yakni fitur untuk melihat lebih lanjut data dari siswa, yang memiliki code seperti ini :
 
@@ -50,10 +49,12 @@ Fitur Kedua yakni fitur untuk melihat lebih lanjut data dari siswa, yang memilik
 
 Kode ini memiliki fungsi untuk menampilkan dialog konfirmasi saat item siswa di-klik di dalam RecyclerView. Saat pengguna menekan salah satu item, muncul dialog dengan pertanyaan "Lihat Detail?" dan pesan yang menyebutkan nama siswa tersebut. Jika tombol "Lihat" ditekan, maka aplikasi akan membuka DetailActivity sambil mengirimkan data siswa berupa nama, NIS, dan kelas melalui Intent. Data ini kemudian bisa ditampilkan lebih lanjut di halaman detail. Jika pengguna memilih "Batal", dialog akan ditutup tanpa melakukan apa-apa. 
 - Contoh dari hasil code jika data siswa ditekan maka akan muncul notifikasi seperti ini :
-![WhatsApp Image 2025-08-07 at 18 19 55_353f46f9](https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13)
+
+<img src="https://github.com/user-attachments/assets/f4b224ee-44c3-4516-bc6d-5bbf2cfdae13" alt="WhatsApp Image" width="400"/>
 
 - Contoh jika user memilih melihat data siswa :
-![WhatsApp Image 2025-08-07 at 18 23 06_a84deccd](https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c)
+
+<img src="https://github.com/user-attachments/assets/52b5c72e-3564-444a-be83-6bc3f78fb76c" alt="WhatsApp Image" width="400" />
 
 ## Kesimpulan
 Melalui proyek ini, kami belajar bagaimana mengembangkan aplikasi Android sederhana yang mampu menampilkan data siswa secara dinamis menggunakan RecyclerView. Proyek ini juga memberikan pemahaman mengenai penerapan fitur CRUD, seperti menambah, mengedit, menghapus, dan melihat detail data, dengan memanfaatkan adapter dan intent antar activity. Seluruh proses pengembangan dilakukan menggunakan Android Studio, yang membantu kami memahami alur kerja dalam membangun aplikasi yang fungsional dan terstruktur. Dengan demikian, proyek ini menambah wawasan serta keterampilan kami dalam pengembangan aplikasi berbasis Android.
