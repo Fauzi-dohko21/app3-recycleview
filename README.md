@@ -5,24 +5,29 @@ Pembuatan project ini bertujuan untuk menampilkan daftar siswa dengan menggunaka
 - M Alfian Fauzi ( 21 )
 - Meutya Candra Dewi ( 26 )
 - Sabila Zahrani (35)
-- 
+ 
 ## 📄 Penjelasan RecyclerView
 RecyclerView adalah sebuah komponen UI canggih yang diperkenalkan dalam Android Lollipop (API 21) sebagai pengganti metode ListView dan GridView, penggantian dilakukan karena Recycleview dapat menghasilkan performa yang jauh lebih baik dan fleksibilitas tinggi. RecyclerView digunakan untuk menampilkan kumpulan data yang besar secara efisien dengan cara mendaur ulang tampilan item yang tidak terlihat agar menghemat memori dan meningkatkan performa dan RecyclerView memungkinkan pengembang untuk mengatur tata letak item menggunakan LayoutManager seperti LinearLayoutManager, GridLayoutManager, atau StaggeredGridLayoutManager
 
 ## 🔄 Penjelasan Alur Data
 1.Student.kt (Model)
+
 Student adalah sebuah data class yang berisi dan menyimpan properti dari siswa, seperti nama, NIS, kelas, dan foto. Model yang digunakan ini merupakan acuan untuk membangun struktur data yang akan ditampilkan di RecycleView
 
 2.StudentAdapter.kt (Adapter) 
+
 Berfungsi sebagai penghubung antara data siswa dan tampilan di RecyclerView. Adapter ini mengatur dan menangani aksi data siswa dimasukkan ke dalam layout item yang sudah dibuat dengan berdasarkan item_student.xml
 
 3.item_student.xml (Layout Item) 
+
 Merupakan layout yang digunakan untuk menampilkan satu item siswa dalam daftar RecyclerView. Layout ini biasanya berisi elemen gambar siswa, nama, NIS, dan kelas.
 
 4.MainActivity.kt
-MainActivity.kt bertanggung jawab untuk menampilkan data siswa ke dalam RecyclerView. Pada bagian ini, data siswa akan diinisialisasi dan kemudian dimasukkan ke dalam adapter. Setelah itu, RecyclerView akan dikonfigurasi menggunakan LayoutManager agar data ditampilkan dalam bentuk daftar (list) yang rapi dan terstruktur
+
+-MainActivity.kt bertanggung jawab untuk menampilkan data siswa ke dalam RecyclerView. Pada bagian ini, data siswa akan diinisialisasi dan kemudian dimasukkan ke dalam adapter. Setelah itu, RecyclerView akan dikonfigurasi menggunakan LayoutManager agar data ditampilkan dalam bentuk daftar (list) yang rapi dan terstruktur
 
 5.DetailActivity.kt
+
 Activity ini digunakan untuk menampilkan detail lengkap dari siswa yang dipilih. Data dikirim melalui Intent dari MainActivity
 
 ## ⚙️ Fitur Aplikasi
