@@ -35,6 +35,13 @@ MainActivity.kt bertanggung jawab untuk menampilkan data siswa ke dalam Recycler
 Activity ini digunakan untuk menampilkan detail lengkap dari siswa yang dipilih. Data dikirim melalui Intent dari MainActivity
 
 ## ⚙️ Fitur Aplikasi
+Fitur Pertama menampilkan 10 data siswa yang berisikan code seperti ini :
+<img width="802" height="758" alt="image" src="https://github.com/user-attachments/assets/8afc615e-4e32-4821-92e9-1c43f61b44a7" />
+Kode ini berada di dalam fungsi onCreate() pada MainActivity, dan berfungsi untuk menampilkan daftar siswa menggunakan RecyclerView. Pertama, layout activity_main.xml dipasang, lalu RecyclerView dihubungkan menggunakan findViewById dan diatur tampil secara vertikal dengan LinearLayoutManager.
+
+Selanjutnya, data siswa dimasukkan secara manual ke dalam studentList menggunakan addAll(), berisi objek Student yang memiliki nama, NIS, dan kelas. Setelah data dimasukkan, adapter StudentAdapter dibuat dengan membawa context dan data tersebut, lalu disambungkan ke RecyclerView dengan recyclerView.adapter = studentAdapter.
+
+Hasil akhirnya, daftar siswa akan tampil secara otomatis di layar dalam bentuk list
 
 1.Menampilkan daftar siswa menggunakan RecyclerView dengan tata letak vertikal
 
