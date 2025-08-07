@@ -1,14 +1,14 @@
-📱 Aplikasi RecyclerView – Data Siswa
+##📱 Aplikasi RecyclerView – Data Siswa
 PROJECT REYCLERVIEW
 
 PROJECT REYCLERVIEW merujuk pada pembuatan aplikasi Android yang menampilkan data dalam bentuk daftar atau grid menggunakan RecyclerView, yaitu salah satu komponen UI di Android yang lebih efisien dibandingkan komponen lama seperti ListView.
 
-📱 Aplikasi RecyclerView – Data Siswa
+## 📱 Aplikasi RecyclerView – Data Siswa
 Aplikasi ini merupakan hasil dari tugas praktikum yang bertujuan untuk memahami cara kerja komponen RecyclerView pada Android Studio.
 Dalam aplikasi ini, RecyclerView digunakan untuk menampilkan daftar siswa dalam bentuk list yang rapi, efisien, dan mudah dikelola.
 Komponen ini dipilih karena memiliki performa yang lebih baik dibandingkan ListView dalam menampilkan data jumlah banyak secara dinamis.
 
-📄 Penjelasan RecyclerView
+#📄 Penjelasan RecyclerView
 
 RecyclerView adalah salah satu komponen tampilan (view) yang disediakan oleh Android untuk 
 menampilkan kumpulan data dalam jumlah besar secara efisien. Komponen ini bekerja dengan 
@@ -19,11 +19,10 @@ Dibandingkan dengan ListView, RecyclerView memiliki fleksibilitas yang lebih tin
 RecyclerView memungkinkan pengembang untuk mengatur tata letak item menggunakan LayoutManager seperti LinearLayoutManager, GridLayoutManager, atau StaggeredGridLayoutManager.
 Selain itu, RecyclerView juga mendukung penggunaan dekorasi item (item decoration) dan animasi transisi data, sehingga tampilan daftar menjadi lebih menarik.
 
-👥 Tim
-
--M.Alfian Fauzi (21)
--Meutya Candra Dewi (26)
--Sabila Zahrani (35)
+#👥 Tim
+- M.Alfian Fauzi (21)
+- Meutya Candra Dewi (26)
+- Sabila Zahrani (35)
 
 🔄 Penjelasan Alur Data
 
